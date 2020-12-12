@@ -1,0 +1,69 @@
+.why_us {
+    padding-bottom: 7%;
+}
+.why_us__title {
+    text-align: center;
+    margin: 70px 0;
+}
+.why_us__title h1 {
+    font-size: 40px;
+}
+.causes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cause__item {
+    height: 270px;
+    width: calc(100% / 3 - 2%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cause__item p {
+    font-size: 18px;
+    font-weight: bold;
+    width: 50%;
+}
+.cause__item:nth-child(1) {
+    background-image: url(../../img/widgets/whyus1.png);
+    background-size: cover;
+}
+.cause__item:nth-child(2) {
+    background-image: url(../../img/widgets/whyus2.png);
+    background-size: cover;
+}
+.cause__item:nth-child(3) {
+    background-image: url(../../img/widgets/whyus3.png);
+    background-size: cover;
+}
+.tel_form {
+    background-color: #F1F1F1;
+}
+.clinets {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4%;
+}
+.clients__title {
+    width: 40%;
+}
+.clients__title h1 {
+    font-size: 50px;
+    margin: 0;
+}
+.clients__content {
+    width: 50%;
+}
+.clients__par {
+    margin-bottom: 50px;
+}
+.clients__content .header__input {
+    margin-top: 30px;
+}
+.clients__content h6 {
+    font-size: 20px;
+    margin: 0;
+    margin: 20px 0;
+}

@@ -1,0 +1,42 @@
+.service {
+    padding-top: 12%;
+}
+.service h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.service p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+.partners {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+.partners h4 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.partners__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.partners__item {
+    width: calc(100% / 5 - 2%);
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partners__item img {
+    width: 75%;
+    height: 40px;
+}
+#partner_img {
+    width: 60px;
+    height: 60px;
+}

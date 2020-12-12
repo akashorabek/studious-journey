@@ -1,0 +1,88 @@
+header {
+    background-image: url('../../img/backgrounds/header_bg.png');
+    padding-bottom: 5%;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    z-index: 1;
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+.nav__contacts {
+    display: flex;
+    align-items: center;
+}
+.nav__contacts a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: .2s;
+}
+.nav__contacts a:hover {
+    color: #E9002F;
+}
+.nav__icon {
+    height: 35px;
+    width: 35px;
+    background-color: #E9002F;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.header__title h1 {
+    color: white;
+    font-size: 40px;
+    width: 80%;
+    line-height: 1.4em;
+    margin: 50px 0;
+    position: relative;
+    z-index: 1;
+}
+.header__input {
+    position: relative;
+    width: 450px;
+    margin-top: 40px;
+    z-index: 1;
+}
+.header__input input {
+    padding: 12px 30px;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    width: 300px;
+}
+.header__input button {
+    border-radius: 35px;
+    padding: 10px 30px;
+    background-color: #E9002F;
+    border: 2px solid #E9002F;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .2s;
+}
+.header__input button:hover {
+    color: #E9002F;
+    background-color: white;
+}
+.painter__img {
+    position: absolute;
+    top: -50px;
+    right: 50px;
+    z-index: 0;
+    width: 90%;
+}
+.painter__img img {
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+.modal {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    z-index: 5;
+}
+.modal.active {
+    display: flex;
+} 
+.modal__inner {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0 20px;
+}
+.modal__inner>.catalog__item:hover {
+   animation: none;
+}
+.modal__inner>.footer__form {
+    margin-left: 30px;
+}
+.modal__inner>.footer__form input {
+    background-color: #F2F2F2;
+}
+.modal__inner>.footer__form button:hover {
+    color: #E9002F;
+}
+body.lock{
+    overflow: hidden;
+}
