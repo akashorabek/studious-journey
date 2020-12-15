@@ -11,6 +11,16 @@ nav {
     z-index: 1;
     position: relative;
 }
+.nav__logo__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+.nav__icons {
+    display: flex;
+    align-items: center;
+}
 a {
     text-decoration: none;
 }

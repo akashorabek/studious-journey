@@ -119,3 +119,15 @@
 .slick-dots li.slick-active button{
     background-color: #E9002F;
 }
+.mobile__slider {
+    display: none;
+    position: relative;
+}
+.mobile__slider .slider__title {
+    position: absolute;
+    top: -15%;
+}
+.mobile__slider .slider__item {
+    margin: 30px 0;
+    height: 300px;
+}

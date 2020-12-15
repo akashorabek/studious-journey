@@ -28,15 +28,16 @@
 }
 .cause__item:nth-child(1) {
     background-image: url(../../img/widgets/whyus1.png);
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .cause__item:nth-child(2) {
     background-image: url(../../img/widgets/whyus2.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .cause__item:nth-child(3) {
     background-image: url(../../img/widgets/whyus3.png);
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .tel_form {
     background-color: #F1F1F1;
